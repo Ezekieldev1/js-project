@@ -101,5 +101,9 @@ console.log(a, b, c);
 var firstName = "Ezekiel";
 var lastName = "Adekunle";
 
+/*Escaping literal Quotes in string*/
 var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
+console.log(myStr);
+
+var myStr= '<a href="https://www.example.com" target="_blank">Link</a>';//quoting strings with single quotes 
 console.log(myStr);
