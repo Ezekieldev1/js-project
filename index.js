@@ -97,3 +97,6 @@ b /= 3;
 c /= 2;
 console.log(a, b, c);
 
+/*declaring a string */
+var firstName = "Ezekiel";
+var lastName = "Adekunle";
