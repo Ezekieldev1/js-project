@@ -131,3 +131,6 @@ var myString = "This is my first sentence. ";
 myString += "This is my second sentence";
 console.log(myString);
 
+var myName = "Ezekiel";
+var myString = "Hello, my name is " + myName + ", how are you?";
+console.log(myString);
