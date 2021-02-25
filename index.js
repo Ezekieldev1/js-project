@@ -120,7 +120,14 @@ CODE OUTPUT
 \f form feed
 *******/
 
-var myString = "Firstline\n\t\\Secondline\nthirdline";
+var myString = "Firstline\n\t\\Secondline\nthirdline";//Escaping sequences in strings
 console.log(myString);
 
+var myString = "Ezekiel. " + "Adekunle.";//concatenating strings with the plus operator
+console.log(myString);
+
+/*concatenating strings with the plus equals to operator*/
+var myString = "This is my first sentence. ";
+myString += "This is my second sentence";
+console.log(myString);
 
