@@ -88,3 +88,12 @@ b *=20;
 c *=30;
 console.log(a, b, c);
 
+var a = 12;
+var b = 15;
+var c = 20;
+
+a /= 2;
+b /= 3;
+c /= 2;
+console.log(a, b, c);
+
