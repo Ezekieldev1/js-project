@@ -100,3 +100,6 @@ console.log(a, b, c);
 /*declaring a string */
 var firstName = "Ezekiel";
 var lastName = "Adekunle";
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
+console.log(myStr);
