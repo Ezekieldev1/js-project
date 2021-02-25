@@ -78,3 +78,12 @@ a -= 5;
 b -= 5;
 c -= 10;
 console.log(a, b, c);
+
+var a = 3;
+var b = 4;
+var c = 4.5;
+
+a = a * 10;
+b = b * 20;
+c = c * 30;
+
