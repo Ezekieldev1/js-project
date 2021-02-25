@@ -107,3 +107,20 @@ console.log(myStr);
 
 var myStr= '<a href="https://www.example.com" target="_blank">Link</a>';//quoting strings with single quotes 
 console.log(myStr);
+
+/******
+CODE OUTPUT
+\' single quote
+\" double quote
+\\ back slash
+\n new line
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+*******/
+
+var myString = "Firstline\n\t\\Secondline\nthirdline";
+console.log(myString);
+
+
