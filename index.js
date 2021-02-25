@@ -83,7 +83,8 @@ var a = 3;
 var b = 4;
 var c = 4.5;
 
-a = a * 10;
-b = b * 20;
-c = c * 30;
+a *=10;
+b *=20;
+c *=30;
+console.log(a, b, c)
 
