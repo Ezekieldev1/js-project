@@ -134,3 +134,7 @@ console.log(myString);
 var myName = "Ezekiel";
 var myString = "Hello, my name is " + myName + ", how are you?";
 console.log(myString);
+
+var myAssist = "I am here to assist you";
+var myString = myAssist + " with your computer activities. ";
+console.log(myString);
