@@ -185,6 +185,14 @@ var lastLetterOfLastName = lastName[lastName.length - 1];
 var lastName = "Ezekiel";
 console.log(lastLetterOfLastName);
 
+/*word Blanks*/
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+    var result = "";
+    result +="The " + myAdjective +" " + myNoun +" " + myVerb +" " + myAdverb +" " + "at the man";
+    return result;
+}
+
+console.log(wordBlanks("lion", "big", "roared", "loudly"));
 
 
 
