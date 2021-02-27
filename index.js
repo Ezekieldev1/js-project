@@ -1,21 +1,21 @@
-let person={
-    name:"Ezekiel",
-    age:"30 "
+let person = {
+    name: "Ezekiel",
+    age: "30 "
 };
-person.name="lakan";
-person["name"]="michael";
+person.name = "lakan";
+person["name"] = "michael";
 console.log(person);
-let selectedColors=['red', 'blue'];
-selectedColors[2]='green';
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
 console.log(selectedColors);
 function greet(name, lastName) {
-    console.log('Hello' + name +'' + lastName);
+    console.log('Hello' + name + '' + lastName);
 }
 greet('Ezekiel', 'Adekunle');
 function square(number) {
     return number * number;
 }
-let number=square(2);
+let number = square(2);
 console.log(number);
 
 var sum = 10 + 10;
@@ -27,52 +27,52 @@ console.log(difference);
 var product = 8 * 10;
 console.log(product);
 
-var quotient = 66/33;
+var quotient = 66 / 33;
 console.log(quotient);
 
-let getRandomNumber=function(start, range){
-    let getRandom=Math.floor((Math.random()*range)+start);
-    while(getRandom > range){
-        getRandom=Math.floor((Math.random()*range)+start);
+let getRandomNumber = function (start, range) {
+    let getRandom = Math.floor((Math.random() * range) + start);
+    while (getRandom > range) {
+        getRandom = Math.floor((Math.random() * range) + start);
     }
     return getRandom;
 }
 console.log(getRandomNumber(500000, 1000000));
 
 
-var myVar=87;
-myVar = myVar+1;
+var myVar = 87;
+myVar = myVar + 1;
 myVar++;//incrementing
 
-var myVar=11;
-myVar = myVar-1;
+var myVar = 11;
+myVar = myVar - 1;
 myVar--;//decrementing
 
-var myDecimal=5.5;
-var ourDecimal=0.5;
+var myDecimal = 5.5;
+var ourDecimal = 0.5;
 
-var product=2.0 * 2.0;//multiplying Decimals
+var product = 2.0 * 2.0;//multiplying Decimals
 console.log(product);
 
-var quotient=4.4 /2.0;//dividing decimals
+var quotient = 4.4 / 2.0;//dividing decimals
 console.log(quotient);
 
 var remainder;
-remainder= 11 % 3;
+remainder = 11 % 3;
 console.log(remainder);
 
 var a = 12;
 var b = 15;
 var c = 20;
 
-a +=12;
+a += 12;
 b += 15;
 c += 15;
 console.log(a, b, c);
 
-var a =15;
-var b =10;
-var c =20;
+var a = 15;
+var b = 10;
+var c = 20;
 
 a -= 5;
 b -= 5;
@@ -83,9 +83,9 @@ var a = 3;
 var b = 4;
 var c = 4.5;
 
-a *=10;
-b *=20;
-c *=30;
+a *= 10;
+b *= 20;
+c *= 30;
 console.log(a, b, c);
 
 var a = 12;
@@ -105,7 +105,7 @@ var lastName = "Adekunle";
 var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
 console.log(myStr);
 
-var myStr= '<a href="https://www.example.com" target="_blank">Link</a>';//quoting strings with single quotes 
+var myStr = '<a href="https://www.example.com" target="_blank">Link</a>';//quoting strings with single quotes 
 console.log(myStr);
 
 /******
@@ -147,7 +147,7 @@ ourString += anAdjective;
 console.log(ourString);
 
 var myAdjective = "Intresting";
-var myStr = "Learning to code is ";  
+var myStr = "Learning to code is ";
 myStr += myAdjective;
 console.log(myStr);
 
@@ -181,8 +181,10 @@ thirdLetterOfLastName = lastName[2];
 console.log(thirdLetterOfLastName);
 
 /*Bracket notation to find the last character in string*/
-var lastLetterOfLastName = lastName[lastName.length-1];
+var lastLetterOfLastName = lastName[lastName.length - 1];
 var lastName = "Ezekiel";
 console.log(lastLetterOfLastName);
+
+
 
 
