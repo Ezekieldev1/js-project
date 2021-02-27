@@ -138,3 +138,8 @@ console.log(myString);
 var myAssist = "I am here to assist you";
 var myString = myAssist + " with your computer activities. ";
 console.log(myString);
+
+var anAdjective = "awesome!";
+var ourString = "FreecodeCamp is ";
+ourString += anAdjective;
+console.log(ourString);
