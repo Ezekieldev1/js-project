@@ -131,6 +131,7 @@ var myString = "This is my first sentence. ";
 myString += "This is my second sentence";
 console.log(myString);
 
+/*constructing strings with variables*/
 var myName = "Ezekiel";
 var myString = "Hello, my name is " + myName + ", how are you?";
 console.log(myString);
@@ -139,7 +140,49 @@ var myAssist = "I am here to assist you";
 var myString = myAssist + " with your computer activities. ";
 console.log(myString);
 
+/*Appending variables to strings with the plus equals operator*/
 var anAdjective = "awesome!";
 var ourString = "FreecodeCamp is ";
 ourString += anAdjective;
 console.log(ourString);
+
+var myAdjective = "Intresting";
+var myStr = "Learning to code is ";  
+myStr += myAdjective;
+console.log(myStr);
+
+/*find the length of a string*/
+var firstNameLength = 0;
+var firstName = "Adekunle";
+
+firstNameLength = firstName.length;
+console.log(firstNameLength);
+
+var lastNameLength = 0;
+var lastName = "Ezekiel";
+
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+
+/*Bracket notation to find characters in string*/
+var firstLetterOfFirstName = "";
+var firstName = "Ezekiel";
+
+firstLetterOfFirstName = firstName[0];
+console.log(firstLetterOfFirstName);
+
+secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName);
+
+var thirdLetterOfLastName = "";
+var lastname = "Adekunle";
+
+thirdLetterOfLastName = lastName[2];
+console.log(thirdLetterOfLastName);
+
+/*Bracket notation to find the last character in string*/
+var lastLetterOfLastName = lastName[lastName.length-1];
+var lastName = "Ezekiel";
+console.log(lastLetterOfLastName);
+
+
