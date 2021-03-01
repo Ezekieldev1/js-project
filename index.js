@@ -194,5 +194,14 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
 
 console.log(wordBlanks("lion", "big", "roared", "loudly"));
 
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+
+var wordBlanks = "The " +myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+console.log(wordBlanks);
+
+
 
 
