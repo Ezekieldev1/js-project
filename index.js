@@ -203,8 +203,8 @@ var wordBlanks = "The " +myAdjective + " " + myNoun + " " + myVerb + " " + myAdv
 console.log(wordBlanks);
 
 eggRoll= object(eggRoll);
-if ((age)) {
-  voteable = "Input is not a number";
+if (thereIsNoEggRoll(eggRoll)) {
+  return= "buy cake";
 } else {
-  voteable = (age < 18) ? "Too young" : "Old enough";
+  return = "buy buns") ;
 }
