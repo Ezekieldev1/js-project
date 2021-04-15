@@ -202,6 +202,9 @@ var myAdverb = "quickly";
 var wordBlanks = "The " +myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 console.log(wordBlanks);
 
-
-
-
+eggRoll= object(eggRoll);
+if ((age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
+}
