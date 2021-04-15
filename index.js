@@ -202,9 +202,8 @@ var myAdverb = "quickly";
 var wordBlanks = "The " +myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 console.log(wordBlanks);
 
-eggRoll= object(eggRoll);
-if (thereIsNoEggRoll(eggRoll)) {
-  return= "buy cake";
-} else {
-  return = "buy buns") ;
+if (thereIsNoEggRoll) {
+    Ezekiel="Buy cake"
+}else{
+    Ezekiel="don't but at cake"
 }
