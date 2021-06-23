@@ -1,19 +1,22 @@
 let person = {
-    name: "Ezekiel",
-    age: "30 "
+	name: "Ezekiel",
+	age: "30 ",
 };
+
 person.name = "lakan";
 person["name"] = "michael";
 console.log(person);
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 'green';
+
+let selectedColors = ["red", "blue"];
+selectedColors[2] = "green";
 console.log(selectedColors);
+
 function greet(name, lastName) {
-    console.log('Hello' + name + '' + lastName);
+	console.log("Hello" + name + "" + lastName);
 }
-greet('Ezekiel', 'Adekunle');
+greet("Ezekiel", "Adekunle");
 function square(number) {
-    return number * number;
+	return number * number;
 }
 let number = square(2);
 console.log(number);
@@ -31,30 +34,29 @@ var quotient = 66 / 33;
 console.log(quotient);
 
 let getRandomNumber = function (start, range) {
-    let getRandom = Math.floor((Math.random() * range) + start);
-    while (getRandom > range) {
-        getRandom = Math.floor((Math.random() * range) + start);
-    }
-    return getRandom;
-}
+	let getRandom = Math.floor(Math.random() * range + start);
+	while (getRandom > range) {
+		getRandom = Math.floor(Math.random() * range + start);
+	}
+	return getRandom;
+};
 console.log(getRandomNumber(500000, 1000000));
-
 
 var myVar = 87;
 myVar = myVar + 1;
-myVar++;//incrementing
+myVar++; //incrementing
 
 var myVar = 11;
 myVar = myVar - 1;
-myVar--;//decrementing
+myVar--; //decrementing
 
 var myDecimal = 5.5;
 var ourDecimal = 0.5;
 
-var product = 2.0 * 2.0;//multiplying Decimals
+var product = 2.0 * 2.0; //multiplying Decimals
 console.log(product);
 
-var quotient = 4.4 / 2.0;//dividing decimals
+var quotient = 4.4 / 2.0; //dividing decimals
 console.log(quotient);
 
 var remainder;
@@ -102,10 +104,10 @@ var firstName = "Ezekiel";
 var lastName = "Adekunle";
 
 /*Escaping literal Quotes in string*/
-var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
+var myStr = 'I am a "double quoted" string inside "double quotes"';
 console.log(myStr);
 
-var myStr = '<a href="https://www.example.com" target="_blank">Link</a>';//quoting strings with single quotes 
+var myStr = '<a href="https://www.example.com" target="_blank">Link</a>'; //quoting strings with single quotes
 console.log(myStr);
 
 /******
@@ -120,10 +122,10 @@ CODE OUTPUT
 \f form feed
 *******/
 
-var myString = "Firstline\n\t\\Secondline\nthirdline";//Escaping sequences in strings
+var myString = "Firstline\n\t\\Secondline\nthirdline"; //Escaping sequences in strings
 console.log(myString);
 
-var myString = "Ezekiel. " + "Adekunle.";//concatenating strings with the plus operator
+var myString = "Ezekiel. " + "Adekunle."; //concatenating strings with the plus operator
 console.log(myString);
 
 /*concatenating strings with the plus equals to operator*/
@@ -186,10 +188,20 @@ var lastName = "Ezekiel";
 console.log(lastLetterOfLastName);
 
 /*word Blanks*/
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
-    var result = "";
-    result +="The " + myAdjective +" " + myNoun +" " + myVerb +" " + myAdverb +" " + "at the man";
-    return result;
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+	var result = "";
+	result +=
+		"The " +
+		myAdjective +
+		" " +
+		myNoun +
+		" " +
+		myVerb +
+		" " +
+		myAdverb +
+		" " +
+		"at the man";
+	return result;
 }
 
 console.log(wordBlanks("lion", "big", "roared", "loudly"));
@@ -199,11 +211,21 @@ var myAdjective = "big";
 var myVerb = "ran";
 var myAdverb = "quickly";
 
-var wordBlanks = "The " +myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+var wordBlanks =
+	"The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 console.log(wordBlanks);
 
-if (thereIsNoEggRoll) {
-    Ezekiel="Buy cake"
-}else{
-    Ezekiel="don't but at cake"
+function mySnackChoice(eggRoll) {
+	if (eggRoll >= 1) {
+		return "buy eggRoll";
+	} else if (eggRoll < 1) {
+		return "buy cake";
+	} else {
+		return "buy buns";
+	}
 }
+console.log(mySnackChoice());
+
+/*ESCAPING LITERAL QUOTES USING BACKSLASH*/
+var str = 'I am a "double quoted" string inside "double quotes".';
+console.log(str);
